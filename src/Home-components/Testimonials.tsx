@@ -27,7 +27,7 @@ const Testimony = [
 
 const settings = {
   dots: true,
-  arrows: true,
+  arrows: false,
   infinite: true,
   speed: 1000,
   slidesToScroll: 1,
