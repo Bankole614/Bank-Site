@@ -111,8 +111,8 @@ const { pathname } = useLocation();
                   <a href="/signup" className=''>Sign up</a>
                   </button>
                   <button className=" bg-primary text-black px-4 py-2 rounded-full text-lg font-medium hover:bg-opacity-80 active:bg-opacity-60">
-                    <a href="/login"></a>
-                    Log In
+                    <a href="/login"> Log In</a>
+                   
                   </button>
                   
                 </div>
