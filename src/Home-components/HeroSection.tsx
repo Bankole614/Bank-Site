@@ -79,7 +79,7 @@ const HeroSection = () => {
               </div>
               <div className="flex flex-col bg-[#202020] text-white border border-[#393939] rounded-lg">
                 <div className="flex border-b border-[#393939]">
-                  <div className="pl-4 py-2 w-1/2">
+                  <div className="px-4 py-2 w-1/2">
                     <div className="flex items-center gap-2 mb-1">
                       <CountryFlag countryCode="IN" svg className="text-4xl" />
                       <p>INR</p>
@@ -87,7 +87,7 @@ const HeroSection = () => {
                     <p className="text-gray-300 font-light text-sm">Indian Rupees</p>
                   </div>
 
-                  <div className="pl-4 py-2 w-1/2 border-[#393939] border-l">
+                  <div className="px-4 py-2 w-1/2 border-[#393939] border-l">
                     <div className="flex items-center gap-2 mb-1">
                       <CountryFlag countryCode="US" svg className="text-4xl" />
                       <p>USD</p>
