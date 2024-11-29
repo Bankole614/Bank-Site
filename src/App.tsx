@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Layout from "./Shared/Layout";
 import Home from "./Home";
 import Career from "./Career";
@@ -10,7 +10,7 @@ import LoginPage from "./LoginPage";
 const App = () => {
   return (
     <>
-      <BrowserRouter>
+      <Router>
         <Routes>
           <Route element={<Layout />}>
             <Route path="/" element={<Home />} />
@@ -21,7 +21,7 @@ const App = () => {
             <Route path="/login" element={<LoginPage />} />
           </Route>
         </Routes>
-      </BrowserRouter>
+      </Router>
     </>
   );
 };
