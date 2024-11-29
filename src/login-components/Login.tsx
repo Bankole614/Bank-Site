@@ -26,7 +26,7 @@ const Login = () => {
           <h2 className="text-primary font-semibold text-2xl">Log In</h2>
           <p className="text-neutral-300 font-light text-center ">Welcome back! Please login to access your account.</p>
         </div>
-          <div className="flex md:flex-row flex-col gap-4">
+          <div className="flex md:flex-row flex-col gap-4 w-full">
             <div className="w-full">
               <input type="email" required className="md:w-64 w-full text-sm text-neutral-300 font-light bg-[#1a1a1a] outline-none border border-[#393939] rounded-full p-2 placeholder-neutral-600" placeholder="Enter Your Email" />
             </div>
